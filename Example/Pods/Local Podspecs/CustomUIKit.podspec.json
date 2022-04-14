@@ -1,0 +1,22 @@
+{
+  "name": "CustomUIKit",
+  "version": "0.1.0",
+  "summary": "A short description of CustomUIKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wxh/CustomUIKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wxh": "704276893@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/wxh/CustomUIKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "CustomUIKit/Classes/**/*"
+}
