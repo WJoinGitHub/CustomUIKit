@@ -4,6 +4,8 @@ platform :ios, '9.0'
 
 target 'CustomUIKit_Example' do
   pod 'CustomUIKit', :path => '../'
+  
+  pod 'Masonry'
 
   target 'CustomUIKit_Tests' do
     inherit! :search_paths

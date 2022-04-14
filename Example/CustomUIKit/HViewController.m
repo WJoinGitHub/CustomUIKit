@@ -8,22 +8,23 @@
 
 #import "HViewController.h"
 
+#import <CustomUIKit/TestVC.h>
+
 @interface HViewController ()
 
 @end
 
 @implementation HViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    // aVc 其实就是AViewController
+    TestVC *aVc = [[TestVC alloc] init];
+    [self presentViewController:aVc animated:YES completion:nil];
 }
 
 @end

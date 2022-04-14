@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "CustomUIKit/Classes/**/*"
+  "source_files": "CustomUIKit/Classes/**/*",
+  "dependencies": {
+    "Masonry": [
+
+    ]
+  }
 }
