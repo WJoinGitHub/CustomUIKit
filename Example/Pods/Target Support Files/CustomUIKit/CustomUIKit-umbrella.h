@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "TestVC.h"
 
 FOUNDATION_EXPORT double CustomUIKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char CustomUIKitVersionString[];
