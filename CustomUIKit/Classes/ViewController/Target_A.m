@@ -11,7 +11,15 @@
 @implementation Target_A
 
 - (UIViewController *)Action_viewController:(NSDictionary *)params {
+    NSString *param = nil;
+    for (NSString *key in params) {
+        if ([[params objectForKey:key] isKindOfClass:[NSString class]]) {
+            param = [params objectForKey:key];
+            break;
+        }
+    }
     TestVC *viewController = [[TestVC alloc] init];
+    viewController.str = param;
     return viewController;
 }
 

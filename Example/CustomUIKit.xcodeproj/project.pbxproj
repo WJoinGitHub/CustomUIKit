@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		11178C60718A10D0BCFFAA5C /* Pods-CustomUIKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomUIKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CustomUIKit_Tests/Pods-CustomUIKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		1DBE11529D278E295C0FECE5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1DBE11529D278E295C0FECE5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4A4DC815927CE2F368B2B36E /* Pods_CustomUIKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomUIKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		55DECEAA8CADE3F2F07CB117 /* Pods_CustomUIKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomUIKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F49888649E4841A0AA238DA /* Pods-CustomUIKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomUIKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-CustomUIKit_Tests/Pods-CustomUIKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -65,8 +65,8 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8F433B05D6735AE177B1B05E /* Pods-CustomUIKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomUIKit_Example.release.xcconfig"; path = "Target Support Files/Pods-CustomUIKit_Example/Pods-CustomUIKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9E0F8B4F657412AD460DABC4 /* Pods-CustomUIKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomUIKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-CustomUIKit_Example/Pods-CustomUIKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		AFAC8250E9974D9B0202B14D /* CustomUIKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CustomUIKit.podspec; path = ../CustomUIKit.podspec; sourceTree = "<group>"; };
-		E256FBAD125CAAA25E987282 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		AFAC8250E9974D9B0202B14D /* CustomUIKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CustomUIKit.podspec; path = ../CustomUIKit.podspec; sourceTree = "<group>"; };
+		E256FBAD125CAAA25E987282 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				11178C60718A10D0BCFFAA5C /* Pods-CustomUIKit_Tests.debug.xcconfig */,
 				5F49888649E4841A0AA238DA /* Pods-CustomUIKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -502,7 +502,7 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -518,7 +518,7 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
